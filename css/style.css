@@ -1,0 +1,133 @@
+/* ROBOTO FONT LINK START  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');;
+/* ROBOTO FONT LINK END */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    background: #F5F5F9;
+}
+
+.logo-container img{
+    max-width: 200px;
+    width: 100%;
+}
+
+.card h2{
+    color: #566a7f;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 500;
+}
+
+.card h2 ~ p{
+    color: #697a8d;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+}
+
+.c-c-password-label,
+.c-c-email-label{
+    color: #566a7f;
+    font-size: 1.2rem;
+    line-height: 1.84rem;
+    font-weight: 500;
+}
+
+input[type="password"]::placeholder,
+input[type="email"]::placeholder{
+    color: #697a8d;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+}
+
+.c-c-password-label ~ a{
+    color: #1ca1aa;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-decoration: none;
+}
+
+.bi-eye-slash-fill{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #697a8d;
+}
+
+.form-check-label{
+    color: #697a8d;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+}
+
+button[type="submit"]{
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    color: #fff;
+    background: #0396a1;
+}
+
+button[type="submit"]:hover{
+    color: #fff;
+    background: #038791;
+    transform: scale(1.01);
+    transform: translateY(-1px);
+    transition: all 0.2s;
+}
+
+form ~ div{
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    color: #697a8d;
+}
+
+form ~ div a{
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    color:#1ca1aa;
+}
+
+
+.chat-icon-box{
+    background: #0396a1;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    border-radius: 50%;
+}
+
+.chat-icon-box span{
+    width: 2.4rem;
+    height: 1.5rem;
+    background: #fff;
+    display: inline-block;
+    transform: rotate(350deg);
+    position: relative;
+}
+
+.chat-icon-box span::after{
+    content: "";
+    width: .7rem;
+    height: 1rem;
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    bottom: -.4rem;
+    right: 30%;
+    /* transform: translateX(50%); */
+    transform: rotate(40deg);
+}
